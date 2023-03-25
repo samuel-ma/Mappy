@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.sections{
+    border: 1px solid rgba(72, 111, 241, 0.733);
+    margin: 20px;
+    padding: 20px;
+}
+
+.scroll{
+    overflow: scroll;
+}

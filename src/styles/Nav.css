@@ -1,0 +1,102 @@
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: smaller;
+    box-shadow: 1px 3px 1px rgba(92, 92, 92, 0.062);
+}
+
+.progress{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 4px;
+    background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
+}
+
+.leftBar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.leftBar p {
+    color: #535bf2;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.midBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EDEEF4;
+    padding: 5px;
+    border: 1px solid #6b696923;
+    border-radius: 5px;
+    width: 40%;
+    padding-left: 10px;
+}
+
+.pin:hover,
+.pin2:hover,
+.midBar:hover{
+    border: 1px solid #535bf2;
+    cursor: pointer;
+}
+
+.input{
+    border: none;
+    background-color: #EDEEF4;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+
+.pin{
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #6b696923;
+    border-radius: 5px;
+}
+
+.pin2{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 5px;
+    border: 1px solid #6b696923;
+    border-radius: 5px;
+}
+
+.rightBar{
+    display: flex;
+    align-items: center;
+    color: #535bf2;
+    font-size: 13px;
+    gap: 10px;
+}
+
+.rightBar:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
