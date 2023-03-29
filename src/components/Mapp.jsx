@@ -23,5 +23,3 @@ export class Mapp extends Component {
 export default WrappedMap({
     apiKey: "AIzaSyDfb_rSX6Q6h4tyO4krwavgdhFTLbbUeOU"
 })(Mapp)
-
-
